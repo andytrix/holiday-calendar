@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_title">HolidayCalendar</string>
+    <string name="app_name">HolidayCalendar</string>
+
+    <string name="home_title">Holiday Calendar</string>
+    <string name="public_holidays">Public Holidays</string>
+    <string name="info_title">Info</string>
+
+    <string name="select_country">Country</string>
+    <string name="select_year">Year</string>
+    <string name="fetch_holidays">Fetch holidays</string>
+
+    <string name="next_holiday">Next holiday</string>
+    <string name="no_holidays_yet">Fetch holidays to see the list.</string>
+
+    <string name="about_title">About this app</string>
+    <string name="about_text">This app fetches official public holidays for a selected country and shows the next upcoming holiday.</string>
+
+    <string name="api_title">API source</string>
+    <string name="api_text">Data is fetched from the Nager.Date service. The API does not require an API key.</string>
+
+    <string name="cd_info">Open info</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_settings">Open settings</string>
+
+    <string name="loading">Loading…</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="retry">Try again</string>
+
+    <string name="country_fi">Finland</string>
+    <string name="country_se">Sweden</string>
+    <string name="country_no">Norway</string>
+    <string name="country_dk">Denmark</string>
+    <string name="country_ee">Estonia</string>
+    <string name="country_de">Germany</string>
+    <string name="country_fr">France</string>
+    <string name="country_gb">United Kingdom</string>
+    <string name="country_us">United States</string>
+
+    <string name="error_invalid_year">Please enter a valid year (1900–2100).</string>
+    <string name="error_invalid_country">Please enter a 2-letter country code (e.g., FI).</string>
+    <string name="error_network">Network error.</string>
+    <string name="error_http">Server error. Please try again.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+
+    <string name="no_upcoming_holidays">No upcoming holidays found.</string>
+
+    <string name="holidays_list_title">Holidays</string>
+    <string name="date_label">Date</string>
+    <string name="local_name_label">Local name</string>
+    <string name="year_hint">Example: 2025</string>
+
+    <string name="api_url">https://date.nager.at</string>
+    <string name="open_api_site">Open API site</string>
+    <string name="author_line">Made with Kotlin + Jetpack Compose</string>
+
+    <string name="search_title">Search</string>
+    <string name="home_tagline">Official holidays, clean and fast.</string>
+
+    <string name="filter_upcoming">Upcoming</string>
+    <string name="filter_global">Global</string>
+    <string name="no_results_filters">No holidays match the selected filters.</string>
+
+    <string name="badge_global">Global</string>
+
+    <string name="details_types">Types</string>
+    <string name="details_country">Country</string>
+    <string name="details_counties">Counties</string>
+    <string name="tap_to_collapse">Tap again to close</string>
+
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_appearance_title">Appearance</string>
+    <string name="settings_appearance_subtitle">Theme and visual preferences</string>
+
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_dark_mode_on">Enabled</string>
+    <string name="settings_dark_mode_off">Disabled</string>
+
+    <string name="settings_theme_preview_title">Theme preview</string>
+    <string name="settings_theme_preview_subtitle">Preview both themes at a glance</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+
+    <string name="sample_holiday_name">Christmas Eve</string>
+    <string name="sample_holiday_date">24.12.2025</string>
+
+    <string name="feature_search">Search holidays by country and year</string>
+    <string name="feature_next">Shows the next upcoming holiday</string>
+    <string name="feature_official">Uses official public holiday data</string>
+    <string name="version_label">Version</string>
+</resources>
